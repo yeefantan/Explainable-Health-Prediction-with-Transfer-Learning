@@ -3,11 +3,10 @@ This is a project studied on the sick and normal faces classification with Trans
 
 ## Requirements
 The code is written in Python and requires Tensorflow. You may install the requirements as follows:
-{{box op="start" cssClass="boxed noteBox"}}
+```
 pip install -r requirements.txt
 
-This is something important to keep in mind.
-{{box op="end"}}
+```
 
 ## Dataset
 
