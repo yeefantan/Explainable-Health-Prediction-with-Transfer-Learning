@@ -42,7 +42,7 @@ To try the LIME execution,
 Go to /notebooks,
 Run through LIME.ipynb
 ```
-
+1
 The results obtained from LIME is shown as below. 
 
 |Original Image | LIME Explanations | Heatmap |
