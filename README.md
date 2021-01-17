@@ -30,11 +30,11 @@ transferlearning.py.
 
 We tested different Explainable AI techniques including XRAI [6], Integrated Gradients [7], and LIME [8].
 
-#XRAI
+### XRAI
 
-#Integrated Gradients
+### Integrated Gradients
 
-#LIME
+### LIME
 LIME can be applied to any machine learning model without knowing its underlying processing or internal representation. This is used to recognize the interpretable model on the interpretable attributes which are faithful to the regressor or classifier. The results obtained from LIME is shown as below. 
 
 To try the LIME execution, 
