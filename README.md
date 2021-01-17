@@ -28,11 +28,17 @@ transferlearning.py
 
 ## Explainable AI
 
-We tested different Explainable AI techniques including XRAI [6], Integrated Gradients [7], and LIME [8].
+We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8].
 
 ### XRAI
 
 ### Integrated Gradients
+
+|Original Image | Integrated Gradient | XRAI |
+|---------------|---------------------|------|
+|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/6.jpg "Ori 6")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/ig_explanations/6_ig.jpg "IG 6")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/xrai_explanations/6_xrai.jpg "XRAI 6")|
+|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/7.jpg "Ori 7")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/ig_explanations/7_ig.jpg "IG 7")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/xrai_explanations/7_xrai.jpg "XRAI 7")|
+|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/8.jpg "Ori 8")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/ig_explanations/8_ig.jpg "IG 8")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/xrai_explanations/8_xrai.jpg "XRAI 8")|
 
 ### LIME
 LIME can be applied to any machine learning model without knowing its underlying processing or internal representation. This is used to recognize the interpretable model on the interpretable attributes which are faithful to the regressor or classifier. 
