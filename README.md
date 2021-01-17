@@ -47,10 +47,8 @@ The results obtained from LIME is shown as below.
 
 |Original Image | LIME Explanations | Heatmap |
 |---------------|-------------------|---------|
-|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/1.jpg "Ori 1")
-|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_explained.jpg "Explained 1")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_heatmap.jpg "Heatmapt 1")|
-|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/1.jpg "Ori 1")
-|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_explained.jpg "Explained 1")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_heatmap.jpg "Heatmapt 1")|
+|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/Test/1.jpg "Ori 1")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_explained.jpg "Explained 1")|![alt text](https://github.com/yeefan1999/Explainable-Health-Prediction-with-Transfer-Learning/blob/main/lime_explanations/1_heatmap.jpg "Heatmapt 1")|
+
 # References
 
 [1] P. Viola, M. Jones, Rapid object detection using a boosted cascade of simple features, in: Proc. 2001 IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit. CVPR 2001, IEEE Comput. Soc, Kauai, HI, USA, 2001: p. I-511-I–518. https://doi.org/10.1109/CVPR.2001.990517.
