@@ -17,9 +17,32 @@ The data is then being pre-processed with Haar Cascade Classifier [2]. Data augm
 ## Model - VGGFace16
 VGGFace-16 model [3] is used in extracting the image's features before training. The model is trained with the imagenet weights. After that, CNN [4] is designed and trained to classify the features. The accuracy obtained for training, validation, and testing are respectively 0.99, 0.98, and 0.98. The proposed method obtained a very high accuracy, but there is no clue in knowing the model's behaviour in making the decision. Hence, Explainable AI [5-7] techniques are applied to know the model's decision behaviour.
 
-To run through the experiment, you may find it under /notebooks/transferlearning.ipynb. Alternatively, you can experiment it on transferlearning.py. 
+To run through the experiment, you may find it under 
+'''
+/notebooks/transferlearning.ipynb. 
+'''
+Alternatively, you can experiment it on 
+'''
+transferlearning.py. 
+'''
 
 ## Explainable AI
+
+We tested different Explainable AI techniques including XRAI [6], Integrated Gradients [7], and LIME [8].
+
+#XRAI
+
+#Integrated Gradients
+
+#LIME
+LIME can be applied to any machine learning model without knowing its underlying processing or internal representation. This is used to recognize the interpretable model on the interpretable attributes which are faithful to the regressor or classifier. The results obtained from LIME is shown as below. 
+
+To try the LIME execution, 
+'''
+Go to /notebooks,
+Run through LIME.ipynb
+'''
+
 
 # References
 
@@ -33,6 +56,8 @@ To run through the experiment, you may find it under /notebooks/transferlearning
 
 [5]	AI Explainability Whitepaper [Whitepaper], (n.d.). https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf.
 
-[6]	U. Pawar, D. O’Shea, S. Rea, R. O’Reilly, Explainable AI in Healthcare, (n.d.) 2.
+[6]	A. Kapishnikov, T. Bolukbasi, F. Viégas, M. Terry, XRAI: Better Attributions Through Regions, ArXiv190602825 Cs Stat. (2019). http://arxiv.org/abs/1906.02825 (accessed October 20, 2020).
 
-[7]	A.B. Arrieta, Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI, Inf. Fusion. (2020) 34.
+[7]	M. Sundararajan, A. Taly, Q. Yan, Axiomatic Attribution for Deep Networks, ArXiv170301365 Cs. (2017). http://arxiv.org/abs/1703.01365 (accessed October 20, 2020).
+
+[8] M.T. Ribeiro, S. Singh, C. Guestrin, “Why Should I Trust You?”: Explaining the Predictions of Any Classifier, ArXiv160204938 Cs Stat. (2016). http://arxiv.org/abs/1602.04938 (accessed October 29, 2020).
