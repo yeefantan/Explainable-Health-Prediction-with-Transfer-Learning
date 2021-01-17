@@ -25,10 +25,11 @@ Alternatively, you can experiment it on
 ```
 transferlearning.py
 ```
+The trained model is provided. You can download and access it in the directory of model.
 
 ## Explainable AI
 
-We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8].
+We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8]. You can download the trained model for this section
 
 ### XRAI
 
