@@ -15,7 +15,7 @@ The data is then being pre-processed with Haar Cascade Classifier [2]. Data augm
 ## Experimental Results
 
 ## Model - VGGFace16
-VGGFace-16 model [3] is used in extracting the image's features before training. The model is trained with the imagenet weights. After that, CNN [4] is designed and trained to classify the features. The accuracy obtained for training, validation, and testing are respectively 0.99, 0.98, and 0.98. The proposed method obtained a very high accuracy, but there is no clue in knowing the model's behavior in making the decision. Hence, Explainble AI [5-7] techniques are experimented.
+VGGFace-16 model [3] is used in extracting the image's features before training. The model is trained with the imagenet weights. After that, CNN [4] is designed and trained to classify the features. The accuracy obtained for training, validation, and testing are respectively 0.99, 0.98, and 0.98. The proposed method obtained a very high accuracy, but there is no clue in knowing the model's behaviour in making the decision. Hence, Explainable AI [5-7] techniques are applied to know the model's decision behaviour.
 
 To run through the experiment, you may find it under /notebooks/transferlearning.ipynb. Alternatively, you can experiment it on transferlearning.py. 
 
