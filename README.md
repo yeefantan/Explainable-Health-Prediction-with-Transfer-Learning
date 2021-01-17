@@ -18,13 +18,13 @@ The data is then being pre-processed with Haar Cascade Classifier [2]. Data augm
 VGGFace-16 model [3] is used in extracting the image's features before training. The model is trained with the imagenet weights. After that, CNN [4] is designed and trained to classify the features. The accuracy obtained for training, validation, and testing are respectively 0.99, 0.98, and 0.98. The proposed method obtained a very high accuracy, but there is no clue in knowing the model's behaviour in making the decision. Hence, Explainable AI [5-7] techniques are applied to know the model's decision behaviour.
 
 To run through the experiment, you may find it under 
-'''
+```
 /notebooks/transferlearning.ipynb. 
-'''
+```
 Alternatively, you can experiment it on 
-'''
+```
 transferlearning.py. 
-'''
+```
 
 ## Explainable AI
 
@@ -35,13 +35,15 @@ We tested different Explainable AI techniques including XRAI [6], Integrated Gra
 ### Integrated Gradients
 
 ### LIME
-LIME can be applied to any machine learning model without knowing its underlying processing or internal representation. This is used to recognize the interpretable model on the interpretable attributes which are faithful to the regressor or classifier. The results obtained from LIME is shown as below. 
+LIME can be applied to any machine learning model without knowing its underlying processing or internal representation. This is used to recognize the interpretable model on the interpretable attributes which are faithful to the regressor or classifier. 
 
 To try the LIME execution, 
-'''
+```
 Go to /notebooks,
 Run through LIME.ipynb
-'''
+```
+
+The results obtained from LIME is shown as below. 
 
 
 # References
