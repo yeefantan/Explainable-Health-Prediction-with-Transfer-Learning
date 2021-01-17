@@ -19,11 +19,11 @@ VGGFace-16 model [3] is used in extracting the image's features before training.
 
 To run through the experiment, you may find it under 
 ```
-/notebooks/transferlearning.ipynb. 
+/notebooks/transferlearning.ipynb
 ```
 Alternatively, you can experiment it on 
 ```
-transferlearning.py. 
+transferlearning.py
 ```
 
 ## Explainable AI
