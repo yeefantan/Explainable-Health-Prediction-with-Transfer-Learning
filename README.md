@@ -37,7 +37,8 @@ Integrated Gradient is an attribution method used to attribute the essential and
 ### XRAI 
 XRAI is another attribution method that is specialized for image input only. It combines Integrated Gradient with over-segmentation and region selection to find the attribution. However, the attribution determined is as a level of regions, but not pixels. XRAI is proved to be able to produce a better result than other saliency methods for common models. This method can be applied to any deep neural network model. 
 
-Both the XRAI and Integrated Gradients model are tested on [Google Cloud Explainable AI Platform](https://cloud.google.com/explainable-ai). The file "XRAI_and_IG.ipynb" in notebooks directory presented the setup codes in the platform. The methods of setting parameters for different visualization, importing the model, and getting explantions are demonstrated in the notebook file. The results obtained for this both method is presented in the table below. 
+Both the XRAI and Integrated Gradients model are tested on [Google Cloud Explainable AI Platform](https://cloud.google.com/explainable-ai). The file "XRAI_and_IG.ipynb" in notebooks directory presented the setup codes in the platform. The methods of setting parameters for different visualization, importing the model, and getting explantions are demonstrated in the notebook file. The results obtained from the proposed methods are presented as follow:
+
 
 |Original Image | Integrated Gradient | XRAI |
 |---------------|---------------------|------|
