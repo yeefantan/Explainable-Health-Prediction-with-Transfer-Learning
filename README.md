@@ -31,7 +31,7 @@ The trained model is provided. You can download and access it in the directory o
 
 We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8]. You can download the trained model for the presented Explainable AI method at 
 ```
-models/face_model
+model/face_model
 ```
 
 ### Integrated Gradients
