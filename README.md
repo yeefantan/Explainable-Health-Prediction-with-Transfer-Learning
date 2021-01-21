@@ -29,7 +29,10 @@ The trained model is provided. You can download and access it in the directory o
 
 ## Explainable AI
 
-We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8]. You can download the trained model for this section
+We tested different Explainable AI techniques including XRAI[6], Integrated Gradients[7], and LIME[8]. You can download the trained model for the presented Explainable AI method at 
+```
+models/face_model
+```
 
 ### Integrated Gradients
 Integrated Gradient is an attribution method used to attribute the essential and main values to the trained model’s input. . This technique combined the axioms of Sensitivity and Implementation Invariance. This method can be applied to different deep neural networks by attributing the predicted outcome of a model to the input.
