@@ -1,4 +1,4 @@
-# Explainable Health Prediction with Transfer Learning
+# Explainable Health Prediction from Facial Features with Transfer Learning
 This is a project studied on the sick and normal faces classification with Transfer Learning. Explainble AI technique is applied to find the attributes of each decision.
 
 ## Requirements
